@@ -1,0 +1,5 @@
+print("<!DOCTYPE html>\n")
+print("""<html><head><title>Akses melalui CGI</title></head><body><h3>Selamat datang di CGI</h3>""")
+print("""<p>Anda mengakses informasi ini melalui layanan CGI dengan CGIHTTPRequestHandler.</p>""")
+print("<p>Informasi tentang <a href='umur.py'>umur</a> dan <a href ='lingkaran.py'>lingkaran</a></p>")
+print("</body></html>")
